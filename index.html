@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Pokemones</h1>
+        <section class="findbar">
+          <input type="text" placeholder="Buscar pokemon" id="input-pokemon">
+          <button id="btn-buscar">Buscar</button>
+        </section>
+      </header>
+
+      <main class="main">
+        <div id="finded-pokemon-data"></div>
+        <section id="pokemons-list">
+        </section>
+        <div class="paginacion">
+          <button id="btn-prev">Anterior</button>
+          <button id="btn-next">Siguiente</button>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

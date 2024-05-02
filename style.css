@@ -1,0 +1,98 @@
+body{
+    background-color: #fff5ea;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.findbar{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.findbar input[type="text"]{
+    padding: 5px;
+    width: 200px;
+}
+.findbar button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#finded-pokemon-data{
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+#pokemons-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.pokemon-card{
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.pokemon-card img{
+  width: 100px;
+  height: 100px;
+} 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn-prev{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#btn-next{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
