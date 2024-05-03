@@ -18,33 +18,30 @@ header{
     color: #fff;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .findbar input[type="text"]{
-    padding: 5px;
+    padding: 8px;
     width: 200px;
+    margin: 0px;
+    border-radius: 10px 0px 0px 10px;
 }
 .findbar button{
+    margin: 0px;
+    border-radius: 0px 10px 10px 0px;
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 5px 10px;
+    padding: 8px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-#finded-pokemon-data{
-  background-color: #f3f3f3;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
 }
 #pokemons-list{
   display: flex;
@@ -62,6 +59,7 @@ header{
   flex-direction: column;
   align-items: center;
   margin: 10px;
+  
 }
 .pokemon-card img{
   width: 100px;
@@ -96,3 +94,18 @@ header{
     margin: 4px 2px;
     cursor: pointer;
 } 
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    text-align: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #333;
+    margin: 10px;
+    border-radius: 5px;
+
+}
